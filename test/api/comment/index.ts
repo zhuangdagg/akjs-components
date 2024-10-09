@@ -14,7 +14,7 @@ const client = new ApolloClient({
 const list = graphql(`
     query list($topic_id: String!) {
         getComment(topic_id: $topic_id) {
-            topic_id, content
+            topic_id, content, from_user_id, createdAt
         }
     }
 `)

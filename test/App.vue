@@ -1,6 +1,6 @@
 
 <template>
-  <div>
+  <div class="test-app">
     <h3>评论组件：</h3>
     <Comment :data="comment" />
   </div>
@@ -23,6 +23,9 @@
   })
 
 </script>
-<style scoped>
-
+<style>
+.test-app {
+  max-width: 50%;
+  background: rgba(0, 0, 0, .05);
+}
 </style>
