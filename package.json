@@ -1,0 +1,35 @@
+{
+  "name": "@akjs/components",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "codegen": "graphql-codegen"
+  },
+  "devDependencies": {
+    "@apollo/client": "^3.11.8",
+    "@graphql-codegen/cli": "^5.0.3",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "graphql": "^16.9.0",
+    "graphql-tag": "^2.12.6",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vite-plugin-dts": "^4.2.3",
+    "vue": "^3.4.37",
+    "vue-tsc": "^2.0.29"
+  },
+  "module": "dist/components.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "tag": "latest"
+  },
+  "author": "blunt.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangdagg/akjs-components.git"
+  },
+  "homepage": "https://github.com/zhuangdagg/akjs-components#readme"
+}
