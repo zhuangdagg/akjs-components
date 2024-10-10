@@ -24,7 +24,11 @@ import { reactive } from 'vue'
 import CommentInput from './CommentInput.vue'
 
 export interface RootCommentData {
-
+    from_user_id: string,
+    content: string,
+    createdAt: string,
+    place?: any
+    likeCount: number
 }
 
 defineProps<{

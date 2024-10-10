@@ -1,1 +1,1 @@
-{"root":["./src/index.ts","./src/vite-env.d.ts","./src/components/comment/index.vue"],"version":"5.6.3"}
+{"root":["./src/index.ts","./src/vite-env.d.ts","./src/hooks/index.ts","./src/hooks/usecomment.ts","./src/components/comment/commentinput.vue","./src/components/comment/commentitem.vue","./src/components/comment/index.vue"],"version":"5.6.3"}

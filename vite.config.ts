@@ -22,7 +22,7 @@ export default defineConfig({
       formats: ['es'],
       fileName: () => '[name].js'
     },
-    cssCodeSplit: true,
+    // cssCodeSplit: true,
     rollupOptions: {
       output: {
         chunkFileNames: 'chunks/[name]-[hash].js'

@@ -24,6 +24,15 @@
   },
   "module": "dist/components.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/components.js",
+      "require": null
+    },
+    "./style.css": "./dist/style.css",
+    "./package.json": "./package.json"
+  },
   "publishConfig": {
     "tag": "latest"
   },
